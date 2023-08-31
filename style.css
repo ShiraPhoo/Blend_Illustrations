@@ -614,7 +614,7 @@ a {
 /* Responsive Design */
 @media (max-width: 1024px) {
   main {
-    padding-top: 145px;
+    padding-top: 105px;
   }
 }
 @media (max-width: 775px) {
