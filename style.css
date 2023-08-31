@@ -96,7 +96,7 @@ main {
   z-index: -1;
   background-color: #f9f3f1;
   border-radius: 10px;
-  padding-top: 300px;
+
 }
 main .row {
   display: flex;
