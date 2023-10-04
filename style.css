@@ -138,7 +138,7 @@ main .row {
   border-radius: 10px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(30px);
   border: 1px solid rgba(255, 255, 255, 0.3);
   overflow: hidden;
   transition: height 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -723,7 +723,6 @@ a {
   .card-data {
     padding: 1rem;
   }
- 
 }
 
 /* For medium devices */
@@ -793,10 +792,6 @@ a {
     background-color: #f9f3f1;
     border-radius: 10px;
     padding-top: 300px; */
-
-    backdrop-filter: blur(30px);
-    -webkit-backdrop-filter: blur(30px);
-   
   }
   .col-1 h1 {
     font-size: 40px;
@@ -806,11 +801,10 @@ a {
   .col-1 p {
     font-size: 12px;
     line-height: 20px;
-    width: 450px;
+    width: 500px;
     padding-top: 20px;
     margin: 0 auto;
   }
- 
   .col-2 {
     margin-top: 10px;
   }
