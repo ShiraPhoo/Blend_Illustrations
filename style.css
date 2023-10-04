@@ -775,6 +775,16 @@ a {
     left: 2rem;
     width: unset;
   }
+  .dropdown_menu {
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    overflow: hidden;
+    transition: height 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
 
   main {
     width: 97%;
@@ -793,13 +803,14 @@ a {
     border-radius: 10px;
     padding-top: 300px; */
   }
+
   .col-1 h1 {
     font-size: 40px;
     line-height: 48px;
     margin-top: -200px;
   }
   .col-1 p {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 20px;
     width: 500px;
     padding-top: 20px;
