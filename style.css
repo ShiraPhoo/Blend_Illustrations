@@ -723,6 +723,15 @@ a {
   .card-data {
     padding: 1rem;
   }
+  main{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(30px);
+    -webkit-backdrop-filter: blur(30px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transition: height 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+  }
 }
 
 /* For medium devices */
@@ -798,8 +807,7 @@ a {
     backdrop-filter: blur(30px);
     -webkit-backdrop-filter: blur(30px);
     border: 1px solid rgba(255, 255, 255, 0.3);
-    overflow: hidden;
-     transition: height 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition: height 0.2s cubic-bezier(0.165, 0.84, 0.44, 1);
   }
   .col-1 h1 {
     font-size: 40px;
