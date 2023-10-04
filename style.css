@@ -804,12 +804,13 @@ a {
     margin-top: -200px;
   }
   .col-1 p {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 20px;
-    width: 500px;
+    width: 450px;
     padding-top: 20px;
     margin: 0 auto;
   }
+ 
   .col-2 {
     margin-top: 10px;
   }
